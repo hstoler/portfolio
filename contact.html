@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
 </head>
+<main>
 <body>
     <div class="skip"><a href="#main">Jump to Content</a></div>
 	<div class = 'header'>
@@ -28,13 +29,20 @@
 <fieldset>
     <legend>Contact Me!</legend>
     <p>Have a question, comment, or suggestion? Fill out this quick contact form and I'll reach out to you as soon as I can!</p>
-    <label for="name_id">Name</label>
-    <input id="name_id" type="text" placeholder="Your Name Here..." name="name">
-    <label for="email_id">Email</label>
-    <input id="email_id" type="email" placeholder="Your Email Here..." name="name">
-    <label for="message_id">Message</label>
-    <input id="message_id" type="text" placeholder="Your Message Here..." name="name">
+    <div class='formgrid'>
+        <label for="name_id">Name</label>
+        <input id="name_id" type="text" placeholder="Your Name Here..." name="name">
+    </div>
+    <div class='formgrid'>
+        <label for="email_id">Email</label>
+        <input id="email_id" type="email" placeholder="Your Email Here..." name="name">
+    </div>
+    <div class='formgrid'>
+        <label for="message_id">Message</label>
+        <input id="message_id" type="text" placeholder="Your Message Here..." name="name">
+    </div>
     <input type="submit" value="Submit">
+
 </fieldset>
 </form>
 </div><br>
@@ -44,4 +52,5 @@
           &copy; Hunter Max Stoler</p>
       </footer>
 </body>
+</main>
 </html>
