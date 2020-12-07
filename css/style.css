@@ -24,6 +24,26 @@ padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 
+@-webkit-keyframes slide{
+  0% {width:100px;}
+  100% {width:300px;}
+
+}
+
+@keyframes slide{
+  0% {width:100px;}
+  100% {width:500px;}
+} 
+
+#goblue{
+  animation-name:slide;
+  display: inline;
+  width:500px;
+  padding-top: 40px;
+  animation-duration: 5s;
+  animation-iteration-count: initial;
+}
+
 a{
   text-decoration: underline;
   color: #6f00ff;
@@ -338,12 +358,12 @@ text-align: center;
 }
 
 .flip-card-front {
-  background-color: #c6c6c1;
+  background-color: #1f2124;
   color: black;
 }
 
 .flip-card-back {
-  background-color: #c6c6c1;
-  color: black;
+  background-color: #1f2124;
+  color: #ffffff;
   transform: rotateY(180deg);
 }
