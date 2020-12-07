@@ -305,26 +305,25 @@ text-align: center;
   background-size: cover;
 }
 
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
-}
-
-@media screen and (prefers-reduced-motion: reduce){
   html{
-      scroll-behavior: auto; /* Removes scroll animation */
+    scroll-behavior: auto;
   }
-
+    
   .skip a{
-    -webkit-transition: none; /* sets to default setting */
-    transition: none;        /* sets to default setting */
-   }
-
+    -webkit-transition: none;
+    transition: none;
+  }
   header{
     background-attachment: initial;
   }
-}
+
+  .nav_links{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .active a{
+    padding: 10px 10px;
+  }
 
 .flip-card {
   background-color: transparent;
@@ -349,6 +348,12 @@ text-align: center;
   transform: rotateY(180deg);
 }
 
+.flip-card:focus-within .flip-card-inner{
+  transform: rotateY(180deg);
+}
+
+
+
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -367,3 +372,34 @@ text-align: center;
   color: #ffffff;
   transform: rotateY(180deg);
 }
+
+/* media */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  #goblue {
+    animation: none;
+    height: auto;
+    width: 220px;
+    -webkit-animation: none;
+  }
+  html{
+    scroll-behavior: auto;
+  }
+      
+    .skip a{
+      -webkit-transition: none;
+      transition: none;
+      }
+    }
