@@ -12,10 +12,16 @@ padding: 0;
 }
 
 .header{
-  font-size: 40px; /*why isn't this working*/
+  font-size: 40px;
   line-height: 10px;
   padding-top: 10px;
   text-align: center;
+}
+
+.stroked{
+  color: #ffffff;
+  -webkit-text-stroke: .1px #6f00ff;
+  -webkit-font-smoothing: antialiased;
 }
 
 a{
