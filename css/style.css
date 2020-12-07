@@ -175,6 +175,13 @@ textarea{
   padding-bottom: 20px;
 }
 
+.fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+
 .gallery{
   min-height: 400px;
   display: flex;
