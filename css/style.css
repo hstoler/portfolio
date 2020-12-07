@@ -264,7 +264,7 @@ text-align: center;
 }
 
 .parallax {
-  background-image: url("/images/contactbackground.PNG");
+  background-image: url("../images/contactbackground.PNG");
   height: 900px;
   background-attachment: fixed;
   background-position: center;
