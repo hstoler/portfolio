@@ -258,7 +258,8 @@ grid-row: 7 / auto;
 }
 
 nav{
-background-color: #ffffff;
+background-color: #000000;
+color: #ffffff;
 padding: 25px 0;
 text-align: left;
 }
