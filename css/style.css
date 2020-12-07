@@ -177,8 +177,7 @@ textarea{
   width: 300px;
   margin: 20px;
   background-color: #1f2124;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .fixed {
