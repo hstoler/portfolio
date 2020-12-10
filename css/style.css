@@ -25,19 +25,19 @@ padding: 0;
 
 @-webkit-keyframes slide{
   0% {width:100px;}
-  100% {width:350px;}
+  100% {width:300px;}
 
 }
 
 @keyframes slide{
   0% {width:100px;}
-  100% {width:350px;}
+  100% {width:300px;}
 } 
 
 #goblue{
   animation-name:slide;
   display: inline;
-  width:350px;
+  width:300px;
   padding-top: 40px;
   animation-duration: 5s;
   animation-iteration-count: initial;
@@ -180,7 +180,8 @@ textarea{
 }
 
 .grid-item{
-	border: 2px solid #0099ff;
+  display: grid;
+  border: 2px solid #0099ff;
 	padding: 10px;
   margin: 1px;
   padding: 20px;
@@ -326,7 +327,7 @@ text-align: center;
 
 .flip-card {
   background-color: transparent;
-  width: 365px;
+  width: 350px;
   height: 515px;
   margin-left: auto;
   margin-right: auto;
@@ -404,7 +405,7 @@ text-align: center;
   #goblue {
     animation: none;
     height: auto;
-    width: 350px;
+    width: 300px;
     -webkit-animation: none;
   }
   html{
