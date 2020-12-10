@@ -19,8 +19,7 @@ padding: 0;
 }
 
 .stroked{
-  color: #ffffff;
-  /* -webkit-text-stroke: .1px #6f00ff; */
+  color: #0099ff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -46,7 +45,7 @@ padding: 0;
 
 a{
   text-decoration: underline;
-  color: #6f00ff;
+  color: #0099ff;
 }
 
 h1{
@@ -82,7 +81,7 @@ li{
 }
 
 .grid-item{
-  border: 2px solid #6f00ff;
+  border: 2px solid #0099ff;
   padding: 20px;
 }
 
@@ -91,7 +90,7 @@ li{
   flex-direction: row;
   flex-wrap: wrap;
   height: auto;
-  background-color: #6f00ff;
+  background-color: #0099ff;
   align-items: top;
   justify-content: center;
   width: 100%;
@@ -106,7 +105,7 @@ li{
 }
 
 .footer p{
-  color: #6f00ff;
+  color: #0099ff;
   text-align: right;
 }
 .summary-grid{
@@ -130,7 +129,7 @@ li{
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #6f00ff;
+  border: 1px solid #0099ff;
   background-color: #1f2124;
   color: #ffffff;
   margin-top: 6px;
@@ -181,7 +180,7 @@ textarea{
 }
 
 .grid-item{
-	border: 2px solid #6f00ff;
+	border: 2px solid #0099ff;
 	padding: 10px;
   margin: 1px;
   padding: 20px;
@@ -192,7 +191,7 @@ textarea{
 }
 
 .section{
-  border: 2px solid #6f00ff;
+  border: 2px solid #0099ff;
   min-height: 100px;
   width: 300px;
   margin: 20px;
@@ -242,7 +241,7 @@ a:hover{
 
 .current{
   text-transform: uppercase;;
-  color: #6f00ff;
+  color: #0099ff;
 }
 
 .skip a{
@@ -262,7 +261,7 @@ top: 0px;
 }
 
 *:focus{
-border: 2px solid #6f00ff;
+border: 2px solid #0099ff;
 }
 
 footer{
@@ -331,7 +330,7 @@ text-align: center;
   height: 515px;
   margin-left: auto;
   margin-right: auto;
-  border: 10px solid #6f00ff;
+  border: 10px solid #0099ff;
   perspective: 1000px; 
 }
 
